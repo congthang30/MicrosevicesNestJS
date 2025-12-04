@@ -1,2 +1,2 @@
-pnpx lint-staged
+npx lint-staged
 nx run-many -t lint
