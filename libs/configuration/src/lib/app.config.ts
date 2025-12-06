@@ -1,4 +1,7 @@
+import { IsNumber } from 'class-validator';
+
 export class AppConfiguration {
+  @IsNumber()
   readonly PORT: number;
 
   constructor() {
